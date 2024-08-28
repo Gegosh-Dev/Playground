@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\ASPNET.Domain.Commons\ASPNET.Domain.Commons.csproj" />
+    <ProjectReference Include="..\..\..\Domain\ASPNET.Service.Database\ASPNET.Service.Database.csproj" />
+    <ProjectReference Include="..\ASPNET.Product.DataAccess\ASPNET.Product.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
